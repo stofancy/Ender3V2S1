@@ -1699,7 +1699,7 @@
 #define Z_MIN_POS 0
 #define X_MAX_POS 248  // MRiscoC Stock physical limit
 #define Y_MAX_POS 231  // MRiscoC Stock physical limit
-#define Z_MAX_POS 250  // Ender Configs
+#define Z_MAX_POS 200  // Ender Configs
 //#define I_MIN_POS 0
 //#define I_MAX_POS 50
 //#define J_MIN_POS 0
