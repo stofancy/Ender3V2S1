@@ -1227,11 +1227,11 @@
 
   #define LIMITED_JERK_EDITING        // Limit edit via M205 or LCD to DEFAULT_aJERK * 2  // Ender Configs
   #if ENABLED(LIMITED_JERK_EDITING)
-    #define MAX_JERK_EDIT_VALUES { 20, 20, 1, 20 } // ...or, set your own edit limits  // MRiscoC allows higher limits
+    #define MAX_JERK_EDIT_VALUES { 100, 100, 2, 50 } // ...or, set your own edit limits  // MRiscoC allows higher limits
   #endif
 #endif
 
-#define DEFAULT_EJERK    5.0  // May be used by Linear Advance  // Ender Configs
+#define DEFAULT_EJERK    20.0  // May be used by Linear Advance  // Ender Configs
 
 /**
  * Junction Deviation Factor
