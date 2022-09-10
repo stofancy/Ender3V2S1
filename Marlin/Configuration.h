@@ -1254,7 +1254,7 @@
  *
  * See https://github.com/synthetos/TinyG/wiki/Jerk-Controlled-Motion-Explained
  */
-#define S_CURVE_ACCELERATION  // MRiscoC Enabled
+// #define S_CURVE_ACCELERATION  // MRiscoC Enabled
 
 //===========================================================================
 //============================= Z Probe Options =============================
